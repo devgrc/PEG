@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--LINK BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FIM LINK BOOTSTRAP ICONS-->
+    <title>PEG</title>
+</head>
+<body>
+    <header>
+    <div class="nav">
+        <div class="logo">PEG</div>
+        <div class="menu">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#contato">Contato</a>
+        </div>
+        <a class="btn-entrar" target="_blank" href="tela-login.html">Entrar</a>
+        <a class="btn-reg" target="_blank" href="tela-cadastro.html">Registre-se</a>
+    </div>
+    </header>
+    
+    <section id="inicio" class="inicio">
+        <div class="sobre">
+            <img class="img-jovem" src="images/jovem-negro.jpeg" alt="jovem-negro-estudante">
+            <div class="texto-sobre">
+                
+                <h1>Seja Bem Vindo a PEG <br><span style="color: burlywood;">Plataforma de Educação Gratuita</span></h1>
+                <p>"Na <span style="color: burlywood;">PEG</span>, cada clique é um passo em direção a um futuro mais brilhante, <br> onde o saber se transforma em poder e a educação é o caminho para todos."</p>
+               <!--
+                <p>Bem-vindo à PEG (Plataforma de Educação Gratuita), um espaço digital dedicado à democratização do <br> conhecimento e ao acesso livre à educação de qualidade. Na PEG, acreditamos que todos têm o direito <br> fundamental de aprender, independentemente de sua localização geográfica, recursos financeiros ou <br> barreiras linguísticas.</p>
+                <p>Em nossa plataforma você pode encontrar diversos cursos de outras plataformas para expandir seu conhecimento e formação. Recursos educacionais gratuitos, abrangendo uma vasta gama de tópicos, <br> desde matemática e ciências até artes e humanidades. </p>
+               --> 
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre-nos">
+            <div class="texto-sobre-nos">
+            <h2>Sobre Nós</h2>
+            <div class="flex">
+                <div class="sobre-nos-box">
+                    <i class="bi bi-question-circle"></i>
+                    <h3>Quem somos?</h3>
+                    <p>Bem-vindo à <span style="color: burlywood;">PEG (Plataforma de Educação Gratuita)</span>, um espaço digital dedicado à democratização do <br> conhecimento e ao acesso livre à educação de qualidade. Na <span style="color: burlywood;">PEG</span>, acreditamos que todos têm o direito <br> fundamental de aprender, independentemente de sua localização geográfica, recursos financeiros ou <br> barreiras linguísticas.</p>
+                </div>
+
+                <div class="sobre-nos-box">
+                    <i class="bi bi-pc-display-horizontal"></i>
+                    <h3>Plataforma</h3>
+                    <p>Em nossa plataforma você pode encontrar diversos cursos de outras plataformas para expandir seu <br> conhecimento e formação. Recursos educacionais gratuitos, abrangendo uma vasta gama de tópicos, <br> desde matemática e ciências até artes e humanidades. </p>
+                </div>
+
+                <div class="sobre-nos-box">
+                    <i class="bi bi-book"></i>
+                    <h3>Diversidade</h3>
+                    <p>Na PEG, os usuários podem explorar cursos ministrados por instrutores especializados, participar de <br> fóruns de discussão para colaborar com outros alunos e acessar materiais de aprendizado interativos. <br> Além disso, estamos comprometidos em manter nossa plataforma acessível e fácil de usar, garantindo <br>que o aprendizado seja uma experiência envolvente e enriquecedora para todos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="formulario">
+        <div class="txt-ctt">
+            <h2>Fale Conosco!</h2>
+            <form action="">
+                <input class="inp-txt" type="text" placeholder="Seu Nome" required>
+                <input class="inp-email" type="email" placeholder="Seu Email" required>
+                <input class="inp-tel" type="tel" placeholder="Seu Celular">
+                <textarea name="" id="" placeholder="Sua Mensagem" required></textarea>
+                <div class="btn-enviar"><input type="submit" value="Enviar"></div>
+            </form>
+        </div>
+    </section>
+</body>
+<script src="index.js"></script>
+</html>

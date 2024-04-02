@@ -1,0 +1,445 @@
+
+/* Importação de fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@100;200;300;400;500&family=Open+Sans:wght@300;400;500&family=Protest+Revolution&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;1,300;1,500;1,700&display=swap');
+
+/* Reset de margem e preenchimento padrão */
+body, html {
+    margin: 0; /* Reset da margem */
+    padding: 0; /* Reset do preenchimento */
+    font-family: "Raleway", Arial, Helvetica, sans-serif; /* Definição da fonte padrão */
+}
+
+/* Estilos da barra de navegação */
+.nav {
+    display: flex; /* Exibe os elementos da barra de navegação em um flex container */
+    flex-wrap: wrap; /* Permite que os elementos se ajustem automaticamente ao tamanho da tela */
+    max-width: 1100px; /* Define a largura máxima da barra de navegação */
+    margin: 10px 15px; /* Margem externa superior e inferior */
+    padding: 10px 10px; /* Preenchimento interno */
+}
+
+/* Estilos de link */
+a {
+    text-decoration: none; /* Remove a decoração de link padrão */
+    color: black; /* Cor do texto dos links */
+    transition: 0.3s; /* Efeito de transição suave */
+}
+
+/* Estilos de link ao passar o mouse */
+a:hover {
+    color: burlywood; /* Cor do texto dos links ao passar o mouse */
+    
+    transform: scale(1.08); /* Efeito de escala ao passar o mouse */
+}
+
+/* Estilos do menu */
+.menu {
+    display: flex; /* Exibe os itens do menu em uma linha */
+    gap: 2rem; /* Espaçamento entre os itens do menu */
+    list-style: none; /* Remove marcadores de lista */
+    margin-left: 460px; /* Margem esquerda dos itens do menu */
+    text-align: right; /* Alinhamento do texto à direita */
+    font-size: 1.1em; /* Tamanho da fonte */
+    margin-top: 6px; /* Margem superior */
+}
+
+/* Estilos do botão "Entrar" */
+.btn-entrar {
+    font-weight: bold; /* Peso da fonte */
+    cursor: pointer; /* Cursor do mouse */
+    position: absolute; /* Posicionamento absoluto */
+    right: 170px; /* Distância do lado direito */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    padding: 0.5rem 1rem; /* Preenchimento interno */
+    border: 0.5px solid; /* Estilo da borda */
+    border-radius: 10px; /* Raio da borda */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+/* Estilos do botão "Registrar" */
+.nav .btn-reg {
+    font-weight: bold; /* Peso da fonte */
+    cursor: pointer; /* Cursor do mouse */
+    position: absolute; /* Posicionamento absoluto */
+    right: 30px; /* Distância do lado direito */
+    background-color: burlywood; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 0.5rem 1rem; /* Preenchimento interno */
+    border: none; /* Remover borda */
+    border-radius: 10px; /* Raio da borda */
+    font-size: 1rem; /* Tamanho da fonte */
+    transition: 0.4s; /* Efeito de transição suave */
+}
+
+/* Estilos do botão "Registrar" ao passar o mouse */
+.btn-reg:hover{
+    color: black; /* Cor do texto ao passar o mouse */
+    
+}
+
+/* Estilos do logotipo */
+.nav .logo {
+    font-weight: bold; /* Peso da fonte */
+    font-size: 1.5em; /* Tamanho da fonte */
+}
+
+/* Estilos do título e texto sobre a PEG */
+.texto-sobre h1 {
+    margin: 25px; /* Margem externa */
+    margin-top: 120px; /* Margem superior */
+    font-size: 50px; /* Tamanho da fonte */
+}
+
+.texto-sobre p {
+    margin: 25px; /* Margem externa */
+    font-size: 24px; /* Tamanho da fonte */
+}
+
+/* Estilos da imagem do logotipo */
+.img-logo {
+    width: 90px; /* Largura da imagem */
+    height: 90px; /* Altura da imagem */
+}
+
+/* Estilos da imagem do jovem */
+.img-jovem {
+    float: right; /* Alinha a imagem à direita */
+    margin-right: 40px; /* Margem direita */
+    width: 350px; /* Largura da imagem */
+    border-radius: 20px; /* Raio da borda */
+    box-shadow: 0px 0px 26px 14px rgba(0,0,0,0.1); /* Sombra */
+}
+
+/* Estilos do título sobre nós */
+.texto-sobre-nos h2 {
+    display: flex; /* Exibe o título como um flex container */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente */
+    margin-top: 250px; /* Margem superior */
+    margin-right: 10px; /* Margem direita */
+    margin-left: 10px; /* Margem esquerda */
+    border-radius: 10px; /* Raio da borda */
+    font-size: 40px; /* Tamanho da
+
+ fonte */
+}
+
+/* Estilos da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background-color: white; /* Cor de fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(226, 222, 217); /* Cor do botão de rolagem */
+    border-radius: 5px; /* Raio do botão de rolagem */
+}
+
+/* Mudança de estilo ao selecionar texto */
+::selection {
+    color: black; /* Cor do texto selecionado */
+    background-color: burlywood; /* Cor de fundo do texto selecionado */
+}
+
+/* Estilos da seção "Sobre Nós" */
+section.sobre-nos {
+    padding: 40px 4%; /* Preenchimento interno */
+}
+
+/* Estilos do título "Sobre Nós" */
+.texto-sobre-nos h2 {
+    margin-bottom: 80px; /* Margem inferior */
+    font-size: 60px; /* Tamanho da fonte */
+}
+
+/* Estilos do box "Sobre Nós" */
+.sobre-nos .sobre-nos-box {
+    color: #000000; /* Cor do texto */
+    padding: 30px; /* Preenchimento interno */
+    display: inline-block; /* Exibe o box como um bloco inline */
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    border-radius: 20px; /* Raio da borda */
+    margin-bottom: 80px; /* Margem inferior */
+    margin-left: 120px; /* Margem esquerda */
+    transition: 0.2s; /* Efeito de transição */
+}
+
+/* Estilos do box "Sobre Nós" ao passar o mouse */
+.sobre-nos .sobre-nos-box:hover {
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+    box-shadow: 0 0 10px #00000060; /* Sombra */
+    
+}
+
+/* Estilos do ícone no box "Sobre Nós" */
+.sobre-nos .sobre-nos-box i {
+    font-size: 50px; /* Tamanho da fonte */
+    color: burlywood; /* Cor do ícone */
+    display: flex; /* Exibe o ícone como um flex container */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente */
+}
+
+/* Estilos do título no box "Sobre Nós" */
+.sobre-nos-box h3 {
+    display: flex; /* Exibe o título como um flex container */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente */
+    font-size: 30px; /* Tamanho da fonte */
+}
+
+/* Estilos do texto no box "Sobre Nós" */
+.sobre-nos-box p {
+    font-size: 20px; /* Tamanho da fonte */
+}
+
+/* Estilos do título do formulário de contato */
+.txt-ctt h2 {
+    display: flex; /* Exibe o título como um flex container */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: center; /* Alinha horizontalmente */
+    font-size: 60px; /* Tamanho da fonte */
+}
+
+/* Estilos da seção do formulário de contato */
+section.formulario {
+    padding: 80px 4%; /* Preenchimento interno */
+}
+
+/* Estilos do formulário */
+form {
+    max-width: 500px; /* Largura máxima do formulário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Exibe os elementos do formulário em um flex container */
+    justify-content: center; /* Alinha horizontalmente */
+    flex-direction: column; /* Direção dos elementos como coluna */
+    gap: 10px; /* Espaçamento entre os elementos */
+}
+
+/* Estilos dos campos de entrada e área de texto no formulário */
+form input, form textarea {
+    width: 100%; /* Largura total */
+    background-color: rgb(240, 239, 239); /* Cor de fundo */
+    border: 0; /* Remove a borda */
+    outline: 0; /* Remove o contorno ao focar */
+    padding: 20px 15px; /* Preenchimento interno */
+    border-radius: 10px; /* Raio da borda */
+    color: burlywood; /* Cor do texto */
+}
+
+/* Estilos da área de texto no formulário */
+form textarea {
+    resize: none; /* Impede a redimensionamento da área de texto */
+    max-height: 500px; /* Altura máxima */
+}
+
+/* Estilos do espaço para o texto de placeholder */
+form textarea::placeholder {
+    font-family: Arial, Helvetica, sans-serif; /* Família de fontes */
+}
+
+/* Estilos do botão de enviar no formulário */
+form .btn-enviar {
+    margin-top: 20px; /* Margem superior */
+    text-align: center; /* Alinhamento do texto */
+}
+
+/* Estilos do botão de enviar no formulário */
+form .btn-enviar input {
+    width: 110px; /* Largura */
+    background-color: burlywood; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+    cursor: pointer; /* Cursor do mouse */
+    font-weight: bold; /* Peso da fonte */
+    font-size: 15px; /* Tamanho da fonte */
+    font-family: "Raleway", Arial, Helvetica, sans-serif; /* Família de fontes */
+    transition: .2s;
+}
+
+form .btn-enviar input:hover {
+    box-shadow: 0 0 8px #deb87d;
+    transform: scale(1.05);
+    
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* Aqui vai o código modificado */
+    /* Importação de fontes do Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@100;200;300;400;500&family=Open+Sans:wght@300;400;500&family=Protest+Revolution&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;1,300;1,500;1,700&display=swap');
+
+    /* Reset de margem e preenchimento padrão */
+    body, html {
+        margin: 0;
+        padding: 0;
+        font-family: "Raleway", Arial, Helvetica, sans-serif;
+    }
+
+    /* Estilos da barra de navegação */
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 768px;
+        margin: 10px auto;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    /* Estilos do menu */
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    /* Estilos do botão "Entrar" */
+    .btn-entrar {
+        font-weight: bold;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        padding: 0.5rem 1rem;
+        border: 0.5px solid;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
+
+    /* Estilos do botão "Registrar" */
+    .nav .btn-reg {
+        font-weight: bold;
+        cursor: pointer;
+        background-color: burlywood;
+        color: white;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 10px;
+        font-size: 1rem;
+        transition: 0.4s;
+    }
+
+    /* Estilos do logotipo */
+    .nav .logo {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    /* Estilos do título e texto sobre a PEG */
+    .texto-sobre h1 {
+        margin: 25px auto;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .texto-sobre p {
+        margin: 25px auto;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* Estilos da imagem do logotipo */
+    .img-logo {
+        width: 90px;
+        height: 90px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Estilos da imagem do jovem */
+    .img-jovem {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0px 0px 26px 14px rgba(0,0,0,0.1);
+        margin: 20px auto;
+    }
+
+    /* Estilos do título sobre nós */
+    .texto-sobre-nos h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    /* Estilos da seção "Sobre Nós" */
+    section.sobre-nos {
+        padding: 40px 10px;
+    }
+
+    /* Estilos do box "Sobre Nós" */
+    .sobre-nos .sobre-nos-box {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Estilos do ícone no box "Sobre Nós" */
+    .sobre-nos .sobre-nos-box i {
+        font-size: 40px;
+    }
+
+    /* Estilos do título no box "Sobre Nós" */
+    .sobre-nos-box h3 {
+        font-size: 25px;
+    }
+
+    /* Estilos do texto no box "Sobre Nós" */
+    .sobre-nos-box p {
+        font-size: 16px;
+    }
+
+    /* Estilos do título do formulário de contato */
+    .txt-ctt h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    /* Estilos da seção do formulário de contato */
+    section.formulario {
+        padding: 40px 10px;
+    }
+
+    /* Estilos do formulário */
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    /* Estilos dos campos de entrada e área de texto no formulário */
+    form input, form textarea {
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+        color: burlywood;
+    }
+
+    /* Estilos do botão de enviar no formulário */
+    form .btn-enviar {
+        text-align: center;
+    }
+
+    form .btn-enviar input {
+        width: 100%;
+        background-color: burlywood;
+        color: #000000;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+        transition: .2s;
+    }
+
+    form .btn-enviar input:hover {
+        box-shadow: 0 0 8px #deb87d;
+        transform: scale(1.05);
+    }
+}
+
+
+
+

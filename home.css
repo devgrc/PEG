@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@100;200;300;400;500&family=Open+Sans:wght@300;400;500&family=Protest+Revolution&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;1,300;1,500;1,700&display=swap');
+
+* {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    /* Espaçamento entre os cards */
+    margin: 30px;
+    margin-bottom: 6%;
+    
+}
+
+.card {
+    flex: 1;
+    /* Distribui o espaço igualmente entre os cards */
+    max-width: 300px;
+    /* Largura máxima para cada card */
+    transition: .3s;
+
+}
+
+.card:hover {
+    box-shadow: 0px 0px 43px 23px rgba(0,0,0,0.1);
+    transform: scale(1.05);
+}
+
+.card-body a {
+    background-color: burlywood;
+    border: none;
+}
+
+.card-body a:hover {
+    background-color: rgb(212, 160, 92);
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 70px;
+    margin: 40px;
+    margin-bottom: 80px;
+}
+
+.navbar-brand {
+    color: burlywood;
+    font-size: 40px;
+    transition: .2s;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+    color: rgb(212, 160, 92);
+}
+
+/* Estilos da barra de rolagem */
+::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background-color: white; /* Cor de fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(222, 184, 135, 0.507); /* Cor do botão de rolagem */
+    border-radius: 5px; /* Raio do botão de rolagem */
+}
+
+/* Mudança de estilo ao selecionar texto */
+::selection {
+    color: black; /* Cor do texto selecionado */
+    background-color: burlywood; /* Cor de fundo do texto selecionado */
+}
+

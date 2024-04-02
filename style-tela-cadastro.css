@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@100;200;300;400;500&family=Open+Sans:wght@300;400;500&family=Protest+Revolution&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;1,300;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway";
+}
+
+.container {
+    border: none;
+    border-radius: 20px;
+    background-color: #deb87d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    box-shadow: 0px 0px 53px 17px rgba(0, 0, 0, 0.1);
+}
+
+.txt-ctt h2 {
+    display: flex;
+    /* Exibe o título como um flex container */
+    align-items: center;
+    /* Alinha verticalmente */
+    justify-content: center;
+    /* Alinha horizontalmente */
+    font-size: 60px;
+    /* Tamanho da fonte */
+}
+
+.txt-ctt p {
+    display: flex;
+    /* Exibe o título como um flex container */
+    align-items: center;
+    /* Alinha verticalmente */
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Estilos da seção do formulário de contato */
+section.formulario {
+    padding: 80px 4%;
+    /* Preenchimento interno */
+}
+
+/* Estilos do formulário */
+form {
+    max-width: 500px;
+    /* Largura máxima do formulário */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
+    display: flex;
+    /* Exibe os elementos do formulário em um flex container */
+    justify-content: center;
+    /* Alinha horizontalmente */
+    flex-direction: column;
+    /* Direção dos elementos como coluna */
+    gap: 10px;
+    /* Espaçamento entre os elementos */
+    margin-top: 15px;
+}
+
+/* Estilos dos campos de entrada e área de texto no formulário */
+form input {
+    width: 100%;
+    /* Largura total */
+    background-color: rgb(240, 239, 239);
+    /* Cor de fundo */
+    border: 0;
+    /* Remove a borda */
+    outline: 0;
+    /* Remove o contorno ao focar */
+    padding: 20px 15px;
+    /* Preenchimento interno */
+    border-radius: 10px;
+    /* Raio da borda */
+    color: burlywood;
+    /* Cor do texto */
+}
+
+/* Estilos do botão de enviar no formulário */
+form .btn-enviar {
+    margin-top: 20px;
+    /* Margem superior */
+    text-align: center;
+    /* Alinhamento do texto */
+}
+
+/* Estilos do botão de enviar no formulário */
+form .btn-enviar input {
+    width: 140px;
+    /* Largura */
+    background-color: rgb(255, 255, 255);
+    /* Cor de fundo */
+    color: #000000;
+    /* Cor do texto */
+    cursor: pointer;
+    /* Cursor do mouse */
+    font-weight: bold;
+    /* Peso da fonte */
+    font-size: 15px;
+    /* Tamanho da fonte */
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    /* Família de fontes */
+    transition: .2s;
+}
+
+form .btn-enviar input:hover {
+    box-shadow: 0 0 8px #00000065;
+    transform: scale(1.05);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(207, 124, 15);
+    font-weight: bold;
+}
