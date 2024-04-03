@@ -439,7 +439,7 @@ form .btn-enviar input:hover {
 }
 
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (min-width: 1920px) {
     
     .menu {
         margin-left: 700px; /* Margem esquerda dos itens do menu */
