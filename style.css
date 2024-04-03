@@ -119,9 +119,7 @@ a:hover {
     margin-right: 10px; /* Margem direita */
     margin-left: 10px; /* Margem esquerda */
     border-radius: 10px; /* Raio da borda */
-    font-size: 40px; /* Tamanho da
-
- fonte */
+    font-size: 40px; /* Tamanho da fonte */
 }
 
 /* Estilos da barra de rolagem */
@@ -441,5 +439,58 @@ form .btn-enviar input:hover {
 }
 
 
+@media screen and (max-width: 1920px) {
+    
+    .menu {
+        margin-left: 700px; /* Margem esquerda dos itens do menu */
+        font-size: 1.5em; /* Tamanho da fonte */
+    }
 
+    .nav .logo {
+        font-size: 1.7em; /* Tamanho da fonte */
+    }
+
+    .btn-entrar {
+        font-weight: bold; /* Peso da fonte */
+        cursor: pointer; /* Cursor do mouse */
+        position: absolute; /* Posicionamento absoluto */
+        right: 220px; /* Distância do lado direito */
+        color: rgb(0, 0, 0); /* Cor do texto */
+        padding: 0.5rem 1rem; /* Preenchimento interno */
+        border: 0.5px solid; /* Estilo da borda */
+        border-radius: 10px; /* Raio da borda */
+        font-size: 1.5rem; /* Tamanho da fonte */
+    }
+    
+    /* Estilos do botão "Registrar" */
+    .nav .btn-reg {
+        font-size: 1.5rem; /* Tamanho da fonte */
+    }
+
+    .texto-sobre h1 {
+        margin-top: 190px; /* Margem superior */
+        font-size: 70px; /* Tamanho da fonte */
+    }
+    
+    .texto-sobre p {
+        margin: 25px; /* Margem externa */
+        font-size: 30px; /* Tamanho da fonte */
+    }
+
+    .img-jovem {
+        margin-right: 100px; /* Margem direita */
+        width: 500px; /* Largura da imagem */
+    }
+
+    .sobre-nos .sobre-nos-box {
+        padding: 40px; /* Preenchimento interno */
+        margin-left: 370px; /* Margem esquerda */
+    }
+
+    .texto-sobre-nos h2 {
+        margin-top: 410px; /* Margem superior */
+        font-size: 80px; /* Tamanho da fonte */
+    }
+
+}
 
